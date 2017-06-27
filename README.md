@@ -25,6 +25,7 @@ API runs at [http://localhost:8084/api/](http://localhost:8084/api/).
 * GET a noun (person, place, or thing): `/api/noun`
 * GET a noun (person/animal): `/api/noun/person`
 * GET a noun (place): `/api/noun/place`
+* GET a noun (thing): `/api/noun/thing`
 * GET an adjective: `/api/adjective`
 * GET a verb: `/api/verb`
 * GET a random pronoun object: `/api/pronoun`
