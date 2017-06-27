@@ -1,0 +1,19 @@
+{
+  "name": "madlibs-api",
+  "version": "0.0.1",
+  "description": "Simple Node server to generate random words!",
+  "repository": "https://github.com/kmaida/madlibs-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Kim Maida",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {}
+}
