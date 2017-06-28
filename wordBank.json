@@ -66,7 +66,8 @@
       "shovel",
       "pitchfork",
       "thimble",
-      "pie"
+      "pie",
+      "apple"
     ]
   },
   "adjectives": [
@@ -100,7 +101,15 @@
     "friendly",
     "unfriendly",
     "shabby",
-    "shiny"
+    "shiny",
+    "red",
+    "blue",
+    "rose-colored",
+    "floral-scented",
+    "brittle",
+    "excited",
+    "bored",
+    "ripe"
   ],
   "verbs": {
     "present": [
@@ -119,7 +128,8 @@
       "dragging",
       "limping",
       "staggering",
-      "tumbling"
+      "tumbling",
+      "prancing"
     ],
     "past": [
       "jumped",
@@ -136,13 +146,14 @@
       "scratched",
       "yawned",
       "lolled",
-      "sat",
+      "clawed",
       "groaned",
       "cried",
       "chortled",
       "kicked",
       "inched",
-      "danced"
+      "danced",
+      "tip-toed"
     ]
   },
   "navigation": [
