@@ -18,7 +18,11 @@
       "cheetah",
       "antelope",
       "saltwater crocodile",
-      "neighbor"
+      "neighbor",
+      "shark",
+      "JavaScript developer",
+      "CEO",
+      "rodeo clown"
     ],
     "place": [
       "house",
@@ -40,7 +44,8 @@
       "forest",
       "playground",
       "parking lot",
-      "ice cream shop"
+      "ice cream shop",
+      "restaurant"
     ],
     "thing": [
       "tree",
@@ -93,27 +98,61 @@
     "clumsy",
     "savvy",
     "friendly",
-    "unfriendly"
+    "unfriendly",
+    "shabby",
+    "shiny"
   ],
-  "verbs": [
-    "jumped",
-    "frolicked",
-    "swam",
-    "ran",
-    "crawled",
-    "slithered",
-    "slurped",
-    "chewed",
-    "toddled",
-    "slept",
-    "farted",
-    "scratched",
-    "yawned",
-    "lolled",
-    "sat",
-    "groaned",
-    "cried",
-    "chortled"
+  "verbs": {
+    "present": [
+      "running",
+      "licking",
+      "marching",
+      "leaping",
+      "fighting",
+      "cowering",
+      "thrashing",
+      "fleeing",
+      "singing",
+      "driving",
+      "playing",
+      "inching",
+      "dragging",
+      "limping",
+      "staggering",
+      "tumbling"
+    ],
+    "past": [
+      "jumped",
+      "frolicked",
+      "swam",
+      "ran",
+      "crawled",
+      "slithered",
+      "slurped",
+      "chewed",
+      "toddled",
+      "slept",
+      "farted",
+      "scratched",
+      "yawned",
+      "lolled",
+      "sat",
+      "groaned",
+      "cried",
+      "chortled",
+      "kicked",
+      "inched",
+      "danced"
+    ]
+  },
+  "navigation": [
+    "up",
+    "down",
+    "over",
+    "under",
+    "back",
+    "forward",
+    "around"
   ],
   "pronouns": {
     "male": {

@@ -89,11 +89,27 @@ app.get('/api/adjective', (req, res) => {
 
 //------ GET Verbs
 
-// verb: random
-app.get('/api/verb', (req, res) => {
-  const verbs = WORD_BANK.verbs;
+// verb: present tense (-ing)
+app.get('/api/verb/present', (req, res) => {
+  const verbs = WORD_BANK.verbs.present;
   let random = _randomIndex(verbs.length);
   res.json(verbs[random]);
+});
+
+// verb: past tense (-ed)
+app.get('/api/verb/past', (req, res) => {
+  const verbs = WORD_BANK.verbs.past;
+  let random = _randomIndex(verbs.length);
+  res.json(verbs[random]);
+});
+
+//------ GET Navigation
+
+// navigation: random
+app.get('/api/navigation', (req, res) => {
+  const navigation = WORD_BANK.navigation;
+  let random = _randomIndex(navigation.length);
+  res.json(navigation[random]);
 });
 
 //------ GET Pronouns
