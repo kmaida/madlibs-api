@@ -22,7 +22,10 @@
       "shark",
       "JavaScript developer",
       "CEO",
-      "rodeo clown"
+      "rodeo clown",
+      "anteater",
+      "lion",
+      "water buffalo"
     ],
     "place": [
       "house",
@@ -45,7 +48,11 @@
       "playground",
       "parking lot",
       "ice cream shop",
-      "restaurant"
+      "restaurant",
+      "desert",
+      "savanna",
+      "train station",
+      "bus stop"
     ],
     "thing": [
       "tree",
@@ -67,7 +74,8 @@
       "pitchfork",
       "thimble",
       "pie",
-      "apple"
+      "apple",
+      "egg"
     ]
   },
   "adjectives": [
