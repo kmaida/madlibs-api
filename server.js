@@ -54,28 +54,28 @@ app.get('/api/noun', (req, res) => {
     }
   }
   let random = _randomIndex(allNouns.length);
-  res.json(allNouns[random]);
+  res.send(allNouns[random]);
 });
 
 // noun: person
 app.get('/api/noun/person', (req, res) => {
   const nounsPerson = WORD_BANK.nouns.person;
   let random = _randomIndex(nounsPerson.length);
-  res.json(nounsPerson[random]);
+  res.send(nounsPerson[random]);
 });
 
 // noun: place
 app.get('/api/noun/place', (req, res) => {
   const nounsPlace = WORD_BANK.nouns.place;
   let random = _randomIndex(nounsPlace.length);
-  res.json(nounsPlace[random]);
+  res.send(nounsPlace[random]);
 });
 
 // noun: thing
 app.get('/api/noun/thing', (req, res) => {
   const nounsThing = WORD_BANK.nouns.thing;
   let random = _randomIndex(nounsThing.length);
-  res.json(nounsThing[random]);
+  res.send(nounsThing[random]);
 });
 
 //------ GET Adjectives
@@ -84,7 +84,7 @@ app.get('/api/noun/thing', (req, res) => {
 app.get('/api/adjective', (req, res) => {
   const adjectives = WORD_BANK.adjectives;
   let random = _randomIndex(adjectives.length);
-  res.json(adjectives[random]);
+  res.send(adjectives[random]);
 });
 
 //------ GET Verbs
@@ -93,14 +93,14 @@ app.get('/api/adjective', (req, res) => {
 app.get('/api/verb/present', (req, res) => {
   const verbs = WORD_BANK.verbs.present;
   let random = _randomIndex(verbs.length);
-  res.json(verbs[random]);
+  res.send(verbs[random]);
 });
 
 // verb: past tense (-ed)
 app.get('/api/verb/past', (req, res) => {
   const verbs = WORD_BANK.verbs.past;
   let random = _randomIndex(verbs.length);
-  res.json(verbs[random]);
+  res.send(verbs[random]);
 });
 
 //------ GET Navigation
@@ -109,7 +109,7 @@ app.get('/api/verb/past', (req, res) => {
 app.get('/api/navigation', (req, res) => {
   const navigation = WORD_BANK.navigation;
   let random = _randomIndex(navigation.length);
-  res.json(navigation[random]);
+  res.send(navigation[random]);
 });
 
 //------ GET Pronouns
