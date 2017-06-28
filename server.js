@@ -13,6 +13,14 @@ const WORD_BANK = require('./wordBank.json');
 
 /*
  |--------------------------------------
+ | Internal
+ |--------------------------------------
+ */
+
+const _randomIndex = (max) => Math.floor(Math.random() * max);
+
+/*
+ |--------------------------------------
  | App
  |--------------------------------------
  */
@@ -104,6 +112,20 @@ app.get('/api/pronoun', (req, res) => {
   res.json(pronouns[randomKey]);
 });
 
+// pronoun object: animate (male, female, plural)
+app.get('/api/pronoun/animate', (req, res) => {
+  const pronouns = WORD_BANK.pronouns;
+  let pronounKeys = [];
+
+  for (const key in pronouns) {
+    if (pronouns.hasOwnProperty(key) && key !== "neutral") {
+      pronounKeys.push(key);
+    }
+  }
+  let randomKey = pronounKeys[_randomIndex(pronounKeys.length)];
+  res.json(pronouns[randomKey]);
+});
+
 // pronoun object: by id (male, female, neutral, plural)
 app.get('/api/pronoun/:id', (req, res) => {
   const pronoun = WORD_BANK.pronouns[req.params.id];
@@ -122,13 +144,3 @@ app.get('/api/pronoun/:id', (req, res) => {
 
 app.listen(8084);
 console.log('Listening on localhost:8084');
-
-/*
- |--------------------------------------
- | Internal
- |--------------------------------------
- */
-
-function _randomIndex(num) {
-  return Math.floor(Math.random() * num);
-}

@@ -14,7 +14,11 @@
       "cat",
       "sugar glider",
       "ant",
-      "robot"
+      "robot",
+      "cheetah",
+      "antelope",
+      "saltwater crocodile",
+      "neighbor"
     ],
     "place": [
       "house",
@@ -33,7 +37,10 @@
       "Big Ben",
       "Space Needle",
       "amusement park",
-      "forest"
+      "forest",
+      "playground",
+      "parking lot",
+      "ice cream shop"
     ],
     "thing": [
       "tree",
@@ -49,7 +56,12 @@
       "telephone pole",
       "slide whistle",
       "bunch of grapes",
-      "cattle prod"
+      "cattle prod",
+      "ball",
+      "shovel",
+      "pitchfork",
+      "thimble",
+      "pie"
     ]
   },
   "adjectives": [
@@ -76,7 +88,12 @@
     "hairless",
     "hairy",
     "dry",
-    "supple"
+    "supple",
+    "sassy",
+    "clumsy",
+    "savvy",
+    "friendly",
+    "unfriendly"
   ],
   "verbs": [
     "jumped",

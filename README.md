@@ -29,4 +29,5 @@ API runs at [http://localhost:8084/api/](http://localhost:8084/api/).
 * GET an adjective: `/api/adjective`
 * GET a verb: `/api/verb`
 * GET a random pronoun object: `/api/pronoun`
+* GET a random pronoun object that is _not_ "it": `/api/pronoun/animate` (`male`, `female`, `plural`)
 * GET a pronoun object by ID: `/api/pronoun/:id` (`male`, `female`, `neutral`, `plural`)
