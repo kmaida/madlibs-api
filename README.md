@@ -31,5 +31,5 @@ API runs at [http://localhost:8084/api/](http://localhost:8084/api/).
 * GET a verb (past-tense; `-ed`): `/api/verb/past`
 * GET random navigation (ie., `up`, `down`, `back`, etc.): `/api/navigation`
 * GET a random pronoun object: `/api/pronoun`
-* GET a random pronoun object that is _not_ "it": `/api/pronoun/animate` (`male`, `female`, `plural`)
+* GET a random pronoun object that is _not_ "it": `/api/pronoun/gendered` (`male`, `female`)
 * GET a pronoun object by ID: `/api/pronoun/:id` (`male`, `female`, `neutral`, `plural`)

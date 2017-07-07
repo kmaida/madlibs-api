@@ -128,13 +128,13 @@ app.get('/api/pronoun', (req, res) => {
   res.json(pronouns[randomKey]);
 });
 
-// pronoun object: animate (male, female, plural)
-app.get('/api/pronoun/animate', (req, res) => {
+// pronoun object: gendered (male, female)
+app.get('/api/pronoun/gendered', (req, res) => {
   const pronouns = WORD_BANK.pronouns;
   let pronounKeys = [];
 
   for (const key in pronouns) {
-    if (pronouns.hasOwnProperty(key) && key !== "neutral") {
+    if (pronouns.hasOwnProperty(key) && key !== 'neutral' && key !== 'plural') {
       pronounKeys.push(key);
     }
   }

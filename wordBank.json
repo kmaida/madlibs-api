@@ -25,23 +25,21 @@
       "rodeo clown",
       "anteater",
       "lion",
-      "water buffalo"
+      "water buffalo",
+      "gorilla"
     ],
     "place": [
       "house",
       "river",
-      "Antarctica",
       "White House",
       "TARDIS",
-      "Mars",
-      "another planet",
+      "planet",
       "anthill",
       "basement",
       "shopping mall",
       "police station",
       "bridge",
       "alley",
-      "Big Ben",
       "Space Needle",
       "amusement park",
       "forest",
@@ -52,7 +50,9 @@
       "desert",
       "savanna",
       "train station",
-      "bus stop"
+      "bus stop",
+      "cafe",
+      "circus"
     ],
     "thing": [
       "tree",
