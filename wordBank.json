@@ -83,7 +83,7 @@
     "smelly",
     "romantic",
     "awkward",
-    "fatalistic",
+    "fearful",
     "optimistic",
     "pale",
     "successful",
@@ -114,7 +114,9 @@
     "excited",
     "bored",
     "ripe",
-    "sticky"
+    "sticky",
+    "grumpy",
+    "heavy"
   ],
   "verbs": {
     "present": [
