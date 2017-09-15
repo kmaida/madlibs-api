@@ -15,7 +15,7 @@ $ npm install
 ## Serve
 
 ```
-$ node server.js
+$ node server
 ```
 
 API runs at [http://localhost:8084/api/](http://localhost:8084/api/).
@@ -29,7 +29,7 @@ API runs at [http://localhost:8084/api/](http://localhost:8084/api/).
 * GET an adjective: `/api/adjective`
 * GET a verb (present-tense; `-ing`): `/api/verb/present`
 * GET a verb (past-tense; `-ed`): `/api/verb/past`
-* GET random navigation (ie., `up`, `down`, `back`, etc.): `/api/navigation`
+* GET random navigation (e.g., `up`, `down`, `back`, etc.): `/api/navigation`
 * GET a random pronoun object: `/api/pronoun`
 * GET a random pronoun object that is _not_ "it": `/api/pronoun/gendered` (`male`, `female`)
 * GET a pronoun object by ID: `/api/pronoun/:id` (`male`, `female`, `neutral`, `plural`)
